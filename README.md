@@ -18,3 +18,8 @@ A Python-based OMR (Optical Mark Recognition) system using OpenCV.
 ```bash
 pip install -r requirements.txt
 python omr_detector.py
+
+## Output Video
+**Video**: 
+https://drive.google.com/file/d/1Xt-ih9Nk0-FpngDScPAaI3XWoRhqV02h/view?usp=drive_link
+
