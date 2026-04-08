@@ -16,7 +16,7 @@ If the OMR sheet is detected, the image is warped to a top-down view using persp
 The image is divided into columns, and each column is processed to detect the bubbles for the questions. The number of detected bubbles is counted to determine the selected answer.
 
 4. Answer Extraction:
-For each row (question) in the OMR sheet, the bubbles are analyzed, and the option with the most marked pixels is considered as the answer.
+For each row (question) in the OMR sheet, the bubbles are analyzed, and the option with the max value pixels is considered as the answer.
 
 
 ## Features
