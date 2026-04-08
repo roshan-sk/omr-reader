@@ -69,6 +69,10 @@ def manual_crop_column(col_img):
 
 def preprocess_and_warp(image_path):
     image = cv2.imread(image_path)
+    if image is None:
+        print("Error: Image not found. Check the file path!")
+        return None
+    
     image = cv2.resize(image, (800, 1200))
 
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
